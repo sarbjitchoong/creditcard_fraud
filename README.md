@@ -3,9 +3,9 @@
 
 ### ★ GOAL
 
-Banks and credit card companies want to stop fraud from happening to their customers. As more and more people buy things online, it's important to have a good system in place to catch fraud. That's why they're working on a project to make their fraud detection better. 
+Banks and credit card companies want to stop fraud from happening to their customers. As more and more people buy things online, it's important to have a good system in place to catch fraud. That's why working on a project to make their fraud detection better is important. 
 
-The goal of this project is to make a system that can tell when someone is using a credit card fraudulently, so that the real card owner is not charged for something they didn't buy. The system uses regression models to look at the credit card data and figure out if there's something suspicious going on. Regression appraoches are utilized to analyze transaction data, identify patterns, and predict the likelihood of fraudulent activity.
+The goal of this project is to make a system that can tell when someone is using a credit card fraudulently, so that the real card owner is not charged for something they didn't buy. The system uses regression and tensorflow models to look at the credit card data and figure out if there's something suspicious going on. Regression and Tensorflow approaches are utilized to analyze transaction data, identify patterns, and predict the likelihood of fraudulent activity.
 
 By constantly checking credit card transactions as they happen, the system can quickly tell the bank or credit card company if something seems wrong. This helps protect the customer's money and keeps the whole financial system honest.
 
@@ -33,9 +33,9 @@ The dataset has a significant class imbalance issue, where only a small fraction
 
 ### 1. UNDERSAMPLING
 
-Undersampling is a technique used to balance the class distribution of the dataset into decreasing the size of the dominant class (Valid or Non-Fraudalent). This approach is helpful in balancing the dataset by not creating a bias favoring the majority class. The technique randomly removes instances from the majority class until it reaches the same size as the minority class.
+Undersampling is a technique used to balance the class distribution of the dataset into decreasing the size of the dominant class (Valid or Non-Fraudalent). The technique randomly removes instances from the majority class until it reaches the same size as the minority class.
 
-We balanced our dataset by randomly getting 473 samples from the Valid or Non-Fraudulent data to equalize our Fraud data.
+The dataset is balanced by randomly getting 473 samples from the Valid or Non-Fraudulent data to equalize our Fraud data.
 
 #### *MACHINE LEARNING ALGORITHMS USED:*
 <br> **⭐ Logistic Regression** 
@@ -61,13 +61,13 @@ Oversampling is the opposite of undersampling. It involves duplicating instances
 
 #### *MACHINE LEARNING ALGORITHMS USED:*
 <br> **⭐ Logistic Regression** 
-**MODEL ACCURACY: 94%%** 
+**MODEL ACCURACY: 94%** 
 
 <br> **⭐ TensorFlow** 
 
 TensorFlow is a great option for data sets because it offers a lot of pre-made models and algorithms, including advanced deep learning models. Plus, it can train big models fast due to its ability to use GPUs for processing.
 
-**MODEL ACCURACY: 93%%** 
+**MODEL ACCURACY: 93%** 
 
 #### UNDERSAMPLING CONCLUSION
 Logistic regression and a TensorFlow Keras model were used for credit card fraud detection with an accuracy of 94% and 93% respectively. The data was oversampled to address class imbalance, resulting in 99% more data than its original size. However, oversampling can lead to overfitting, making the model less effective in classifying new and unseen data where the model becomes too specialized to the training data, and fails to generalize well to new data.
