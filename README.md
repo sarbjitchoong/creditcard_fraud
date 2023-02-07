@@ -77,7 +77,4 @@ The dataset is balanced by randomly getting 473 samples from the Valid or Non-Fr
 #### UNDERSAMPLING CONCLUSION
 <p style='text-align: justify;'>Logistic regression and a TensorFlow Keras model were used for credit card fraud detection with an accuracy of 94% and 93% respectively. The data was oversampled to address class imbalance, resulting in 99% more data than its original size. However, oversampling can lead to overfitting, making the model less effective in classifying new and unseen data where the model becomes too specialized to the training data, and fails to generalize well to new data.</p>
 
-In this case, the high accuracy obtained through oversampling might not reflect the actual performance of the model in real-world scenarios, and caution should be taken when using this approach.
-
-
-
+<p style='text-align: justify;'>The project highlights the need for ongoing monitoring and evaluation of fraud detection models. By combining undersampling and oversampling techniques, organizations can stay ahead of fraudsters and maintain the trust of their customers. This project emphasizes the crucial role that data preparation and appropriate techniques play in the success of predictive modeling in the field of credit card fraud detection.</p>
